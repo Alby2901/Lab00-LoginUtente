@@ -59,7 +59,7 @@ public class FXMLController {
     @FXML
     void handleAccedi(ActionEvent event) {
 
-    	System.out.println("Hai cliccato il bottone!");
+    	System.out.println("Hai cliccato il bottone "Accedi"!");
     	System.out.println("Utente vale " + txtUtente.getText());
     	System.out.println("password vale " + txtPassword.getText());
     	System.out.println("Tentativi effettuati: " + tentativiEffettuati);
